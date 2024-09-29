@@ -1,0 +1,28 @@
+@font-face {
+  font-family: Niran;
+  src:url(fonts/Niran.ttf);
+}
+@font-face {
+  font-family: DarkFut;
+  src:url(fonts/DarkFuture.ttf);
+}
+@font-face {
+  font-family: trashBrut;
+  src:url(fonts/TrashBrutus.ttf);
+}
+    
+body{
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #444;
+    padding: 0 10px;
+}
+h1,h2{
+   font-family: Niran;
+
+}
+p{
+       font-family: Arial, Helvetica, sans-serif;
+}
