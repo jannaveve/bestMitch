@@ -1,43 +1,74 @@
-body {
-  background-color: white;
+@font-face {
+  font-family: Niran;
+  src:url(fonts/Niran.ttf);
+}
+@font-face {
+  font-family: DarkFut;
+  src:url(fonts/DarkFuture.ttf);
+}
+@font-face {
+  font-family: trashBrut;
+  src:url(fonts/TrashBrutus.ttf);
+}
+html, body {
+  margin: 0;
+  padding:0;
+  cursor: url(babyjatt.gif);
+  background-color:lightgray;
+  
+    
+}
+.text{
+  color:#5138f5;
+   font-family: Niran;
+  font-size:16px;
+}
+.fillText{
+  color:#5138f5;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.nametext{
+  padding-left:5px;
+
+  font-family: Niran;
+ font-size:20px; 
+}
+.statText{
+color:#ADFF2F;
+font-family: trashBrut;
+  font-size:32px;
+}
+canvas {
+  display: block;
+}
+.contactTable{
+  background-color:#ADFF2F;
 }
 
-h1 {
-  color: steelblue;
-  text-align: center;
-    font-family: invasion2000;
+a:link {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-p {
-  font-family: invasion2000;
-    text-align: center;
-  font-size: 16px;
+a:visited {
+  color: #5138f5;
+  background-color: transparent;
+  text-decoration: none;
 }
 
-.center {
-      display: block;
-  margin-left: auto;
-  margin-right: auto;
+a:hover {
+  color: plum;
+  background-color: transparent;
+  text-decoration: underline;
 }
 
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
+a:active {
+  color: deeppink;
+  background-color: transparent;
+  text-decoration: underline;
 }
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  font-family: invasion2000;
-  padding: 15px;
-  text-align: center;
+.container{
+    width: 70%;
+    
 }
