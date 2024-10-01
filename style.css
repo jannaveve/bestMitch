@@ -14,7 +14,7 @@ html, body {
   margin: 0;
   padding:0;
   cursor: url(babyjatt.gif);
-  background-color:lightgray;
+  background-color: DimGray;
   
     
 }
@@ -36,7 +36,7 @@ html, body {
 .statText{
 color:#ADFF2F;
 font-family: trashBrut;
-  font-size:32px;
+  font-size:36px;
 }
 canvas {
   display: block;
