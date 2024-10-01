@@ -35,6 +35,7 @@ html, body {
 }
 .statText{
 color:#ADFF2F;
+margin: 10px;  
 font-family: trashBrut;
   font-size:36px;
 }
