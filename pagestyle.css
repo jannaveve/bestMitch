@@ -19,6 +19,16 @@ body{
     color: #444;
     padding: 0 10px;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+}
+
+li a {
+  display: block;
+}
 h1,h2{
    font-family: Niran;
 
