@@ -19,6 +19,15 @@ body{
     color: #444;
     padding: 0 10px;
 }
+
+.vertnav
+{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
 ul {
   list-style-type: none;
   margin: 0;
